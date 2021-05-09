@@ -1,5 +1,5 @@
 # Automated-Replacement-Packaging-System
-The project this code was designed for was a device replacement and packaging system that would take information from a list of devices that need to be replaced, and create a new list of information about the replacement devices.This Python code will read the files from an Excel file (Agency Test Names), anaylze it, scan in new data, and create a new Excel file (New Barcode Scans 1) with the new information.
+The project this code was designed for was a device replacement and packaging system that would take information from a list of devices that need to be replaced, and create a new list of information about the replacement devices. This Python code will read the files from an Excel file (Agency Test Names), analyze it, scan in new data, and create a new Excel file (New Barcode Scans 1) with the new information.
 Python will search the Excel file for:
   Agency Name: The city the "agency" is in.
   Batch Number: There are 6 devices in a batch, and each batch goes to only one "agency". This is the number an old device's serial number is in a batch, starting over at 6 and                 at each new "agency".
